@@ -1,1 +1,1 @@
-insert into item values(1,'zak')
+insert into item values(1000,'zak')

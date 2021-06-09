@@ -12,10 +12,10 @@ public class main {
     @Autowired
     UserDao ud;
     @RequestMapping("/home")
-    public String home(User u)
+    public String home()
     {
-        System.out.println("welcome home"+u);
-        ud.save(u);
+        System.out.println("welcome home");
+        //ud.save(u);
         return "home.jsp";
     }
     
